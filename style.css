@@ -523,6 +523,30 @@ video {
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
 
+.bg-center {
+  background-position: center;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.hover\:text-yellow-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
 }

@@ -7,5 +7,5 @@
     <title><?php wp_title(); ?></title>
     <?php wp_head(); ?>
 </head>
-<body class="<?php body_class() ?>">
+<body class="<?php body_class(); ?>">
     
